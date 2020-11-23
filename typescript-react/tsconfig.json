@@ -1,18 +1,20 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "es2015",
+    "target": "es6",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "strictNullChecks": false,
+    "strictNullChecks": true,
     "baseUrl": "./",
     "lib": ["es2015", "dom"],
     "jsx": "react",
     "typeRoots": [
       "types",
       "./node_modules/@types"
-    ]
+    ],
+    "moduleResolution": "node"
   },
   "exclude": [
     "node_modules",

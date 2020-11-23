@@ -1,6 +1,6 @@
 {
   "extends": "typescript-react",
-  "publicUrl": "/typescript-react/",
+  "publicUrl": "/",
   "entries": {
     "index": "src/index.tsx"
   },

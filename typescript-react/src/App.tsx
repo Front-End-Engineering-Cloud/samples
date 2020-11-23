@@ -1,13 +1,15 @@
 import * as React from 'react'
-import Svg from './Svg'
-import logo from './logo.svg'
+import Logo from './logo.svg'
+import Name from './Name'
 
 class App extends React.Component<{}, void> {
   render() {
     return (
       <div className="App">
-        <Svg src={logo} />
-        Hello!!
+        <Logo style={{ width: '100px' }} />
+        Hello
+        <Name name="world" />
+        !
       </div>
     );
   }

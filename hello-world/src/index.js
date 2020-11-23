@@ -1,4 +1,6 @@
 import { world } from './names'
 import './style.css'
 
-document.write(`hello ${world}!`)
+const h1 = document.createElement('h1')
+h1.innerText = `hello ${world}!`
+document.body.appendChild(h1)

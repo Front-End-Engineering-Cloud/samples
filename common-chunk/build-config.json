@@ -2,10 +2,8 @@
   "publicUrl": "/common-chunk/",
   "entries": {
     "1": "src/entry-1.js",
-    "2": "src/entry-2.js",
-    "vendor": "src/vendor.js"
+    "2": "src/entry-2.js"
   },
-  "distDir": "common-chunk",
   "pages": {
     "index": {
       "template": "src/index.html",
@@ -20,6 +18,6 @@
     }
   },
   "optimization": {
-    "extractVendor": "vendor"
+    "extractVendor": ["common-1", "common-2", "common-async-1"]
   }
 }

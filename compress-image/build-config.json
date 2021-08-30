@@ -1,0 +1,16 @@
+{
+  "extends": "default",
+  "pages": {
+    "index": {
+      "template": "src/index.html",
+      "entries": "index",
+      "path": ""
+    }
+  },
+  "optimization": {
+    "addPolyfill": false,
+    "extractCommon": false,
+    "extractVendor": false,
+    "compressImage": true
+  }
+}

@@ -19,6 +19,9 @@
   "optimization": {
     "transformDeps": ["foo"]
   },
+  "targets": {
+    "browsers": ["IE 9"]
+  },
   "engines": {
     "builder": "*"
   }

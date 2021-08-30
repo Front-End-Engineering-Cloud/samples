@@ -4,6 +4,30 @@
   "entries": {
     "index": "src/index.jsx"
   },
+  "transforms": {
+    "js": {
+      "transformer": "jsx",
+      "config": {
+        "babelOptions": {
+          "plugins": [
+            ["@babel/plugin-proposal-decorators", { "legacy": true }],
+            "@babel/plugin-proposal-class-properties"
+          ]
+        }
+      }
+    },
+    "jsx": {
+      "transformer": "jsx",
+      "config": {
+        "babelOptions": {
+          "plugins": [
+            ["@babel/plugin-proposal-decorators", { "legacy": true }],
+            "@babel/plugin-proposal-class-properties"
+          ]
+        }
+      }
+    }
+  },
   "pages": {
     "index": {
       "template": "src/index.html",
